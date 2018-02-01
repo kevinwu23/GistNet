@@ -73,18 +73,3 @@ def build_model(add, object_dim, **kwargs):
 
 	if add == 'gist': return AddGist(ObjectNet(object_dim), kwargs['context_dim'])
 	else: raise ValueError('Please specify a valid model.')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

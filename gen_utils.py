@@ -87,4 +87,3 @@ def prepare_input(input_img):
 	output_img[0:4,:] = output_img[0:4,:] - 127.5
 
 	return output_img
-
